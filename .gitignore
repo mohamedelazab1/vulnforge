@@ -1,0 +1,11 @@
+node_modules/
+.next/
+*.db
+uploads/*
+!uploads/.gitkeep
+.env
+.DS_Store
+dist/
+build/
+README.full.md
+screenshots/

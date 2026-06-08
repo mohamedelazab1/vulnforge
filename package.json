@@ -1,0 +1,13 @@
+{
+  "name": "vulnforge",
+  "version": "1.0.0",
+  "description": "VulnForge — Web Vulnerability Training Platform",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npx next dev -p 3000",
+    "dev": "npm run dev:backend & npm run dev:frontend"
+  }
+}
